@@ -1,0 +1,27 @@
+{
+  "name": "mern-app",
+  "version": "1.0.0",
+  "description": "MERN Stack Test App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel ./ --source-maps --out-dir dist",
+    "start": "babel-node server.js",
+    "populate": "babel-node populate.js"
+  },
+  "author": "Colin Smith",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.23.0",
+    "babel-preset-latest": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "moment": "^2.17.1",
+    "mongoose": "^4.8.2",
+    "morgan": "^1.8.1",
+    "nodemon": "^1.11.0"
+  }
+}
